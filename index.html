@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* styling navlist */
+        
+        #navlistt {
+            background-color: #0074D9;
+            position: absolute;
+            width: 100%;
+        }
+        /* styling navlist anchor element */
+        
+        #navlist a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        .navlist-right {
+            float: right;
+        }
+        /* hover effect of navlist anchor element */
+        
+        #navlist a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* styling search bar */
+        
+        .search input[type=text] {
+            width: 300px;
+            height: 25px;
+            border-radius: 25px;
+            border: none;
+        }
+        
+        .search {
+            float: right;
+            margin: 100px;
+        }
+        
+        .search button {
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 100px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header id="header" class="cf">
+        <div class="container">
+            <img src="./img/logo.png" alt="" width="80px" height="60px">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#" class="active">Accueil</a></li>
+                    <li><a href="#">Salons</a></li>
+                    <li><a href="#">Mes coupes</a></li>
+                    <li><a href="#">Tarifs</a></li>
+                    <li><a href="#">Contract</a></li>
+                    <!-- <li id="tt"><img src="./img/logo.png" alt="" width="80px" height="60px"></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <div id="banner">
+
+        <div class="search">
+
+            <div class="container">
+
+
+                
+                <form action="#">
+
+                    <div class="block_div">
+                        
+                        <div class=" col " style="margin-top: 20px; " align="left ">
+
+                            <strong>O&ugrave;?</strong>
+                            <br>
+
+                            <input type="text " name=" " id=" " placeholder="Ville, address du salon ">
+
+                        </div>
+                        <div class="col " style="margin-top: 20px; " align="left ">
+
+
+                            <label for="ville "><strong>Presentation</strong></label><br>
+                            <input type="text " name="ville " id=" " placeholder="Soint, coupe... ">
+
+                        </div>
+                        <div class="col " style="margin-top: 20px; " align="left ">
+
+                            <label for=" "><strong>Nom du salon</strong></label><br>
+                            <select name=" ">
+                                    <option value="Nom du salon ">Nom du salon</option>
+                                </select>
+
+
+                        </div>
+
+
+                        <button style="background:red "> recherche
+                                <i class="fa fa-search "
+                                    style="font-size: 18px; ">
+                                </i>
+                            </button>
+
+                    </div>
+
+
+
+                </form>
+           
+            </div>
+        </div>
+        <!-- <div class="containerr ">
+            <input type="text " name="search " placeholder="Search... " class="input " />
+
+            <a href="# " class="btnn ">
+                <i class="fas fa-search "></i>
+            </a>
+        </div> -->
+    </div>
+    
+
+    <footer>
+        <article id="who-we-are">
+            <div class="container">
+                <article id="testimonials" class="cf">
+                    <div class="container">
+                        <h2>COFFEURS, BARBIERS, INSTITUDE DE BEAUTÉ </h2>
+                        <h2 class="active2">DÉCOUVREZ NOS PROFESSIONNELLES ET LEURS PRESTATIONS</h2>
+                        <div class="col col-1">
+                            <img src=".//img/barbier.jpg" alt="">
+                            <p>Au salon de Laurent</p>
+                            <p class="author"><strong>Barbier</strong></p>
+                        </div>
+                        <div class="col col-2">
+                            <img src=".//img/coups.jpg" alt="">
+                            <p>Honoré coiffure</p>
+                            <p class="author"><strong>Coiffeur</strong></p>
+                        </div>
+                        <div class="col col-3">
+                            <img src=".//img/institue de beauté.jpg" alt="">
+                            <p>Emilie à Paris</p>
+                            <p class="author"><strong>Instutut de beauté</strong></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </footer>
+
+        <footer>
+            <div class="cent">
+                <span class="active3">COMMENT CA MARCHE?</span>
+            </div>
+             <!-- div container  -->
+         <div class="container">
+            <div class="block_div">
+            
+                <div class="col col-1">
+                    <div class="row">
+                        <a href="#">
+                        <h2  class="span_display"><span class=" circle">1</span></h2><br>
+                    </a>
+                        <p class="span_display">
+                            <strong>RÉSERVEZ VOTRE</strong><br>
+                            <strong>RENDEZ-VOUS BEAUTÉ EN</strong><br>
+                            <strong>LIGNE EN 45 SECONDES</strong>
+                        </p>
+                        
+                    </div>
+                  
+                </div>
+                <div class="col col-2">
+                    <div class="row">
+                        <a href="#">
+                            <h2  class="span_display"><span class=" circle">2</span></h2><br>
+                        </a>
+                        
+                        <p class="span_display">
+                            <strong>ENREGISTREZ ET</strong><br>
+                            <strong>PARTAGER VOS COUPES SUR</strong><br>
+                            <strong>UNE MÊME APPLICATION</strong>
+                        </p>
+                        
+                    </div>
+                   
+                </div>
+                <div class="col col-3">
+                    <a href="#">
+                        <h2  class="span_display"><span class=" circle">3</span></h2><br>
+                    </a>
+                        
+                        <p class="span_display">
+                            <strong>ACCÉDEZ AUX ÉVÉNEMENTS ET</strong><br>
+                            <strong>À LA COMMUNAUTÉ DE VOS</strong><br>
+                            <strong>SALONS FAVOUS</strong>
+                        </p>
+                        
+                    
+                   
+                </div>
+            </div>
+            
+        </div>
+        </footer>
+        <footer>
+            <div class="wrapperr">
+                <div class="titlee">
+                    <span>Enregistrez vous dès aujourd'hui</span> 
+                </div>
+                <form action="#">
+                    <div class="fieldd">
+                        <input type="text" required>
+                        <label>Nom</label>
+                    </div>
+                    <div class="fieldd">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="contentt">
+                        <div class="checkboxx">
+                            <input type="checkboxx" id="remember-mee">
+                            <label for="remember-mee">Remember me</label>
+                        </div>
+                        <!-- <div class="pass-link">
+                    <a href="#">Forgot password?</a>
+                </div> -->
+                    </div>
+                    <div class="fieldd">
+                        <a href="#"><input type="submit" value="Inscription"></a>
+                    </div>
+                </form>
+            </div>
+        </footer>
+        
+        <footer id="footer4">
+            <div class="container">
+                <div class="container">
+                    <span class="active3">VOUS ÊTES UN PROFESSIONNELLES?</span><br>
+                </div>
+                <div>
+                    <br>
+                    <p class="span_display_black"> <strong class=>REJOIGNEZ CAPILOO POUR DÉVELOPPER VOTRE SALON </strong></p>
+                    <ol class="act">
+                        <li><span class="span_display">Gagnez du temps avec la prise de rendez-vous en ligne</span></li>
+                        
+                        <br/>
+                        <li><span class="span_display">Boostez votre visibilité en partageant votre travail sur les réseaux sociaux</span></li>
+                        
+                        <br/>
+                        <li><span class="span_display">Fidelisez vos clients en créant une communauté engagée</span></li>
+                    </ol>
+                    <br/>
+                </div>
+                <div class="div_diplay">
+                    <div id="divleft">
+                        <span class="span_display"> AJOUTER VOTRE SALON</span> 
+                    </div>
+                    <div id="divright">
+                        <span class="span_display">CRÉEZ UN EVENEMENT</span> 
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </footer>
+        <footer id="footer3">
+            <h4>JEREMIE de Cotonou et JOHN DENVER des USA a propos de CAPILOO</h4>
+            <div class="fot">
+                <p>JEREMIE</p> <img src=".//img/star5.PNG" alt="" width="45%">
+                <p class="author"><strong>Une tres belle Plateforme</strong></p>
+            </div>
+            <div class="fot2">
+                <p>JOHN DENVER</p><img src=".//img/star4.PNG" alt="" width="40%">
+                <p class="author"><strong>Wow!!! Life saving platform</strong></p>
+            </div>
+        </footer>
+        <footer id="footer2">
+            <p>A propos Politique de confidentialite FAQ</p>
+        </footer>
+        <footer id="footer">
+            <img src=".//img/icon face.png" alt="" width="20px"> <img src=".//img/icon insta.png" alt="" width="20px">
+        </footer>
+
+
+
+</body>
+
+</html>
