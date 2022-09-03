@@ -2,10 +2,14 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
+     <meta charset="utf-8">
+   
     <title>Home-page</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/steeper.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="icon" type="image/png" href="img/logo.png"/>
     <style>
         /* styling navlist */
         
@@ -59,6 +63,18 @@
             border: none;
             cursor: pointer;
         }
+        .list-to-linline  {
+            margin: 0;
+            padding: 0;
+           
+
+        }
+        .list-to-linline {
+            display: inline-block;
+            color:black;
+           margin-left: 2px;
+            
+        }
     </style>
 
 </head>
@@ -83,8 +99,61 @@
 
    
     <div id="banner">
+        <div>
 
-        <div class="search">
+            <div id="contai_search">
+
+
+                
+                <form  action="#">
+
+                    <div id = "searchbox">
+                        <div >
+                            <div class="items_search" style="margin: 10px; " align="left ">
+
+                                <label><strong>O&ugrave;?</strong></label>
+                                <br>
+    
+                                <input type="text "  style="  border: 0;" placeholder="Ville, address du salon ">
+    
+                            </div>
+                            <div class="items_search " style="margin: 10px;" align="left ">
+    
+                                <label><strong>Presentation</strong></label><br>
+                                <input type="text " style="  border: 0;"  placeholder="Soint, coupe... ">
+    
+                            </div>
+                            <div class="items_search " style="margin: 10px;" align="left ">
+    
+                                <label><strong>Nom du salon</strong></label><br>
+                                <select name=" ">
+                                        <option value="Nom du salon ">Nom du salon</option>
+                                    </select>
+    
+    
+                            </div>
+    
+                        </div>
+                        
+                       
+                            <div>
+                                
+                                <button id= "button-submit"> 
+                                    <img src="img/Icone_recherche.svg"/>
+                                </button>
+                            </div>
+                       
+
+                    </div>
+
+
+
+                </form>
+           
+            </div>
+        </div>
+
+        <!-- <div class="search">
 
             <div class="container">
 
@@ -92,7 +161,7 @@
                 
                 <form action="#">
 
-                    <div class="block_div">
+                    <div class="div_diplay">
                         
                         <div class=" col " style="margin-top: 20px; " align="left ">
 
@@ -134,7 +203,7 @@
            
             </div>
         </div>
-        <!-- <div class="containerr ">
+        <div class="containerr ">
             <input type="text " name="search " placeholder="Search... " class="input " />
 
             <a href="# " class="btnn ">
@@ -142,15 +211,38 @@
             </a>
         </div> -->
     </div>
+
+    <!-- <div class="banner">
+
+        <div class="containers">
+    
+            <form action="#" method="get"  class="search-bar" traget="_blank">
+
+                <input type="text" placeholder="search any thing" name="q">
+                <button type="submit">  <i class="fas fa-search"></i></button>
+                
+            </form>
+    
+    </div>
+    
+    </div> -->
     
 
-    <footer>
+    <div class="footer4">
         <article id="who-we-are">
             <div class="container">
                 <article id="testimonials" class="cf">
                     <div class="container">
-                        <h2>COFFEURS, BARBIERS, INSTITUDE DE BEAUTÉ </h2>
-                        <h2 class="active2">DÉCOUVREZ NOS PROFESSIONNELLES ET LEURS PRESTATIONS</h2>
+                        <div class="containerfoo">
+                            <h2>COFFEURS, BARBIERS, INSTITUDE DE BEAUTÉ </h2>
+                        </div>
+                        
+                        
+                        <div class="containerfoo">
+                            <span class="active3">DÉCOUVREZ NOS PROFESSIONNELLES ET LEURS PRESTATIONS</span>
+                        </div>
+                        
+                        
                         <div class="col col-1">
                             <img src=".//img/barbier.jpg" alt="">
                             <p>Au salon de Laurent</p>
@@ -170,64 +262,48 @@
                 </article>
             </div>
         </article>
-    </footer>
+    </d>
 
-        <footer>
-            <div class="cent">
-                <span class="active3">COMMENT CA MARCHE?</span>
+        <div class="footer4">
+
+            <div class="containerfoo">
+                <span class="active3">COMMENT CA MARCHE ? </span>
             </div>
-             <!-- div container  -->
-         <div class="container">
-            <div class="block_div">
-            
-                <div class="col col-1">
-                    <div class="row">
-                        <a href="#">
-                        <h2  class="span_display"><span class=" circle">1</span></h2><br>
-                    </a>
-                        <p class="span_display">
-                            <strong>RÉSERVEZ VOTRE</strong><br>
-                            <strong>RENDEZ-VOUS BEAUTÉ EN</strong><br>
-                            <strong>LIGNE EN 45 SECONDES</strong>
-                        </p>
-                        
-                    </div>
-                  
-                </div>
-                <div class="col col-2">
-                    <div class="row">
-                        <a href="#">
-                            <h2  class="span_display"><span class=" circle">2</span></h2><br>
-                        </a>
-                        
-                        <p class="span_display">
-                            <strong>ENREGISTREZ ET</strong><br>
-                            <strong>PARTAGER VOS COUPES SUR</strong><br>
-                            <strong>UNE MÊME APPLICATION</strong>
-                        </p>
-                        
-                    </div>
-                   
-                </div>
-                <div class="col col-3">
-                    <a href="#">
-                        <h2  class="span_display"><span class=" circle">3</span></h2><br>
-                    </a>
-                        
-                        <p class="span_display">
-                            <strong>ACCÉDEZ AUX ÉVÉNEMENTS ET</strong><br>
-                            <strong>À LA COMMUNAUTÉ DE VOS</strong><br>
-                            <strong>SALONS FAVOUS</strong>
-                        </p>
-                        
-                    
-                   
+
+            <div >
+                <div class="md-stepper-horizontal orange">
+                    <div class="md-step active">
+                        <div class="md-step-circle"><span>1</span></div>
+                        <div class="md-step-title"><span>RÉSERVEZ VOTRE</span></div>
+                        <div class="md-step-title"><span>RENDEZ-VOUS BEAUTÉ EN</span></div>
+                        <div class="md-step-title"><span>LIGNE EN 45 SECONDES</span></div>
+                        <div class="md-step-bar-left"></div>
+                        <div class="md-step-bar-right"></div>
+                      </div>
+    
+                      <div class="md-step active">
+                        <div class="md-step-circle"><span>2</span></div>
+                        <div class="md-step-title"><span>ENREGISTREZ ET</span></div>
+                        <div class="md-step-title"><span>PARTAGER VOS COUPES SUR</span></div>
+                        <div class="md-step-title"><span>UNE MÊME APPLICATION</span></div>
+                        <div class="md-step-bar-left"></div>
+                        <div class="md-step-bar-right"></div>
+                      </div>
+    
+                      <div class="md-step active">
+                        <div class="md-step-circle"><span>3</span></div>
+                        <div class="md-step-title"><span>ACCÉDEZ AUX ÉVÉNEMENTS ET</span></div>
+                        <div class="md-step-title"><span>À LA COMMUNAUTÉ DE VOS</span></div>
+                        <div class="md-step-title"><span>SALONS FAVOUS</span></div>
+                        <div class="md-step-bar-left"></div>
+                        <div class="md-step-bar-right"></div>
+                      </div>
                 </div>
             </div>
             
+         
         </div>
-        </footer>
-        <footer>
+        <div class="div_diplay">
             <div class="wrapperr">
                 <div class="titlee">
                     <span>Enregistrez vous dès aujourd'hui</span> 
@@ -255,25 +331,27 @@
                     </div>
                 </form>
             </div>
-        </footer>
+        </div>
         
-        <footer id="footer4">
-            <div class="container">
-                <div class="container">
-                    <span class="active3">VOUS ÊTES UN PROFESSIONNELLES?</span><br>
+        <div id="footer4">
+                <div class="containerfoo">
+                    <h2 class="active3">VOUS ÊTES UN PROFESSIONNELLES ? </h2>
                 </div>
-                <div>
-                    <br>
-                    <p class="span_display_black"> <strong class=>REJOIGNEZ CAPILOO POUR DÉVELOPPER VOTRE SALON </strong></p>
-                    <ol class="act">
-                        <li><span class="span_display">Gagnez du temps avec la prise de rendez-vous en ligne</span></li>
-                        
-                        <br/>
-                        <li><span class="span_display">Boostez votre visibilité en partageant votre travail sur les réseaux sociaux</span></li>
-                        
-                        <br/>
-                        <li><span class="span_display">Fidelisez vos clients en créant une communauté engagée</span></li>
-                    </ol>
+                <div class="groupe_puce">
+                    <div class="puce1">
+                         <p class="span_display_black"> <strong class=>REJOIGNEZ CAPILOO POUR DÉVELOPPER VOTRE SALON </strong></p>
+                    </div>
+                    <div class="puce2">
+                        <ul class="list-to-linline">
+                            <li>Gagnez du temps avec la prise de rendez-vous en ligne</li>
+                            
+                            <br/>
+                            <li><span class="span_display">Boostez votre visibilité en partageant votre travail sur les réseaux sociaux</span></li>
+                            
+                            <br/>
+                            <li><span class="span_display">Fidelisez vos clients en créant une communauté engagée</span></li>
+                        </ul>
+                    </div>
                     <br/>
                 </div>
                 <div class="div_diplay">
@@ -285,22 +363,31 @@
                         
                     </div>
                 </div>
+            
+        </div>
+        <div id="footer3">
+            <div class="containerfoo">
+                <h4>JEREMIE de Cotonou et JOHN DENVER des USA à propos de CAPILOO</h4>
+            </div>
+            <div class="div_diplay_commantaire">
+                <div class="fot">
+                    <p>JEREMIE</p> <img src=".//img/star5.PNG" alt="" width="45%">
+    
+                    <div class="containerfoo">
+                        <p><strong>Une tres belle Plateforme</strong></p>
+                    </div>
+                   
+                </div>
+                <div class="fot2">
+                    <p>JOHN DENVER</p><img src=".//img/star4.PNG" alt="" width="45%">
+                    <div class="containerfoo">
+                        <p><strong>Wow!!! Life saving platform</strong></p>
+                    </div>
+                    
+                </div>
             </div>
             
-            
-            
-        </footer>
-        <footer id="footer3">
-            <h4>JEREMIE de Cotonou et JOHN DENVER des USA a propos de CAPILOO</h4>
-            <div class="fot">
-                <p>JEREMIE</p> <img src=".//img/star5.PNG" alt="" width="45%">
-                <p class="author"><strong>Une tres belle Plateforme</strong></p>
-            </div>
-            <div class="fot2">
-                <p>JOHN DENVER</p><img src=".//img/star4.PNG" alt="" width="40%">
-                <p class="author"><strong>Wow!!! Life saving platform</strong></p>
-            </div>
-        </footer>
+        </div>
         <footer id="footer2">
             <p>A propos Politique de confidentialite FAQ</p>
         </footer>
